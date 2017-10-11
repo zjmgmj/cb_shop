@@ -1,0 +1,307 @@
+body {
+  background: #f0f0f0;
+}
+.detail_header {
+  width: 100%;
+}
+.detail_header .detail_header_img {
+  width: 100%;
+}
+.detail_header .detail_header_img img {
+  width: 100%;
+  display: block;
+}
+.detail_header .detail_header_content {
+  width: 100%;
+  height: 2rem;
+  background: #1a87e2;
+  padding: 1rem 0;
+}
+.detail_header .detail_header_content li {
+  color: #fff;
+  float: left;
+  width: 33%;
+  text-align: center;
+  border-right: 1px #fff solid;
+}
+.detail_header .detail_header_content li:last-child {
+  border-right: none;
+}
+.detail_header .detail_header_content li p {
+  margin-bottom: .2rem;
+}
+.detail_header .detail_store .d_shop {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+.detail_header .detail_store .d_shop img {
+  float: left;
+  width: 3rem;
+}
+.detail_header .detail_store .d_shop .d_shop_r {
+  float: left;
+  margin-left: .5rem;
+}
+.detail_header .detail_store .d_shop .d_shop_r h3 {
+  font-size: .65rem;
+}
+.detail_header .detail_store .d_shop .d_shop_r .score .icon-xingji {
+  color: #999;
+  font-size: .4rem;
+}
+.detail_header .detail_store .d_shop .d_shop_r .add {
+  color: #999;
+  font-size: .5rem;
+}
+.detail_header .detail_store .d_shop:after {
+  clear: both;
+  display: block;
+  content: '';
+}
+.detail_header .detail_store .d_shop_detail {
+  background: #fff;
+}
+.detail_header .detail_store .d_shop_detail .d_shop_detail_list {
+  border-bottom: 1px #e1e1e1 solid;
+  height: 2rem;
+  line-height: 2rem;
+  box-sizing: border-box;
+}
+.detail_header .detail_store .d_shop_detail .d_shop_detail_list:last-child {
+  border-bottom: none;
+}
+.detail_header .detail_store .d_shop_detail .d_shop_detail_list .icon {
+  color: #999;
+}
+.detail_header .detail_store .d_shop_detail .d_shop_detail_list span {
+  padding-left: .2rem;
+}
+.detail_header .detail_store .d_about {
+  margin-top: .3rem;
+  padding-bottom: .3rem;
+  background: #fff;
+  border-top: 1px #e1e1e1 solid;
+}
+.detail_header .detail_store .d_about .about_header {
+  height: 2rem;
+  line-height: 2rem;
+}
+.detail_header .detail_store .d_about .about_header h3 {
+  font-size: .6rem;
+  width: 3rem;
+}
+.detail_header .detail_store .d_about .about_v {
+  text-align: center;
+  width: 90%;
+  height: 7.8rem;
+  margin: 0 auto;
+}
+.detail_header .detail_store .d_about .about_v img {
+  width: 100%;
+}
+.detail_header .detail_store .d_about .about_p {
+  line-height: .8rem;
+  font-size: .55rem;
+  color: #666;
+}
+.detail_header .detail_store .d_activity {
+  clear: both;
+  border-top: 1px #e1e1e1 solid;
+  background: #fff;
+  padding: .2rem;
+  box-sizing: border-box;
+  margin-top: .2rem;
+}
+.detail_header .detail_store .d_activity .d_activity_header {
+  height: auto;
+}
+.detail_header .detail_store .d_activity .d_activity_header h3 {
+  font-size: .6rem;
+  margin-bottom: .5rem;
+}
+.detail_header .detail_store .d_activity .d_activity_img {
+  margin-bottom: .2rem;
+}
+.detail_header .detail_store .d_activity .d_activity_img img {
+  width: 100%;
+}
+.detail_header .detail_store .d_activity .about_p {
+  color: #666;
+  line-height: .8rem;
+  font-size: .55rem;
+  border-top: 1px #e1e1e1 solid;
+  padding-top: .3rem;
+}
+.detail_header .detail_store .d_activity .about_p p {
+  width: 100%;
+}
+.evaluation {
+  background: #fff;
+  margin-top: .2rem;
+  padding-bottom: 3rem;
+}
+.evaluation h4 {
+  color: #666;
+  font-size: .6rem;
+  font-weight: lighter;
+  padding: .5rem 0;
+}
+.evaluation .evaluation_content {
+  border-top: 1px #e1e1e1 solid;
+  padding-top: .8rem;
+  box-sizing: border-box;
+  padding-bottom: .8rem;
+}
+.evaluation .evaluation_content .evaluation_c {
+  font-size: .5rem;
+  color: #666;
+  margin-bottom: .3rem;
+}
+.evaluation .evaluation_content .evaluation_img img {
+  width: 3rem;
+}
+.evaluation .evaluation_content .evaluation_b {
+  margin-top: .2rem;
+  font-size: .4rem;
+  color: #999;
+}
+.evaluation .evaluation_content .evaluation_b .icon {
+  font-size: .4rem;
+  color: #fa704c;
+}
+.evaluation .evaluation_content .evaluation_b .evaluation_time {
+  width: 50%;
+  text-align: right;
+  float: right;
+}
+.evaluation .evaluation_eye {
+  clear: both;
+  padding-bottom: 2rem;
+}
+.evaluation .evaluation_eye p {
+  text-align: center;
+  width: 4rem;
+  height: 1rem;
+  line-height: 1rem;
+  border: 1px #d93100 solid;
+  color: #d93100;
+  border-radius: .2rem;
+  margin: 0 auto;
+  font-size: .3rem;
+}
+.statement {
+  border-top: 1px #e1e1e1 solid;
+  background: #fff;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+.statement h3 {
+  padding: .5rem;
+  font-size: .7rem;
+}
+.statement .statement_d {
+  font-size: .5rem;
+  line-height: 1rem;
+}
+.contract {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background: #fff;
+  border-top: 1px #e1e1e1 solid;
+}
+.contract h3 {
+  padding: .5rem;
+  font-size: .7rem;
+}
+.contract .contract_img img {
+  width: 100%;
+}
+.content {
+  box-sizing: border-box;
+  padding: 0 .3rem;
+}
+.content:after {
+  clear: both;
+  content: '';
+  display: block;
+}
+.tel_box {
+  display: none;
+  width: 10rem;
+  background: #fff;
+  border-radius: .3rem;
+  position: fixed;
+  left: 50%;
+  margin-left: -5rem;
+  top: 30%;
+  z-index: 120;
+}
+.tel_box li {
+  height: 1.8rem;
+  line-height: 1.8rem;
+  text-align: center;
+  font-size: .5rem;
+  border-bottom: 1px #e1e1e1 solid;
+}
+.tel_box .tel_box_t {
+  font-weight: 600;
+  font-size: .6rem;
+}
+.tel_box .tel_box_close {
+  color: #ff4381;
+  font-size: .6rem;
+}
+.wx_box {
+  display: none;
+  width: 10rem;
+  background: #fff;
+  border: 1px #e1e1e1 solid;
+  border-radius: .3rem;
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  margin-left: -5rem;
+  z-index: 120;
+  box-sizing: border-box;
+  padding: .5rem;
+}
+.wx_box .wx_title .wx_shop_logo {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: .3rem;
+  border: 1px #e1e1e1 solid;
+  float: left;
+}
+.wx_box .wx_title .wx_t {
+  float: left;
+  padding-left: .3rem;
+  padding-top: .4rem;
+}
+.wx_box .wx_title .wx_t h3 {
+  font-size: .6rem;
+  padding-bottom: .1rem;
+}
+.wx_box .wx_title .wx_t p {
+  color: #999;
+  font-size: .5rem;
+  font-weight: lighter;
+}
+.wx_box .wx_title:after {
+  clear: both;
+  content: '';
+  display: block;
+}
+.wx_box .wx_img {
+  width: 100%;
+  text-align: center;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+.wx_box .wx_img img {
+  width: 8rem;
+}
+.wx_box .wx_m {
+  text-align: center;
+  color: #999;
+  font-size: .4rem;
+}
