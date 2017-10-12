@@ -89,6 +89,12 @@ button {
 .border_bottom {
   border-bottom: solid 1px #eee;
 }
+.red {
+  color: #f95b5a;
+}
+.color_default {
+  color: #a1a1a1;
+}
 .orange {
   color: #ffa541;
 }
@@ -130,3 +136,4 @@ button {
   z-index: 100;
   display: none;
 }
+/*# sourceMappingURL=base.css.map */
