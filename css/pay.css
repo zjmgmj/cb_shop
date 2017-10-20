@@ -13,7 +13,10 @@
 .pay .title a {
   display: block;
   width: 10%;
-  float: left;
+  position: absolute;
+  left: 3%;
+  top: 0;
+  z-index: 3;
   color: #5d5d5d;
   text-align: left;
 }
@@ -105,5 +108,10 @@
   background-color: #09ba07;
   -webkit-border-radius: 0.25rem;
   border-radius: 0.25rem;
+}
+.pay .pay-method .paybtn a {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 /*# sourceMappingURL=pay.css.map */

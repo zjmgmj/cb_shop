@@ -17,172 +17,204 @@
 		<link href="css/iconfont.css" rel="stylesheet" type="text/css" />
 		<link href="css/index.css" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" type="text/css" href="css/detail.css" />
-		<script src="js/zepto.min.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/pullToRefresh.css" />
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/detail.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/iscroll.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/pullToRefresh.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			#wrapper {
+				bottom: 0;
+			}
+		</style>
 	</head>
 
 	<body>
-		<div class="detail_header">
-			<div class="detail_header_img">
-				<img src="images/1_02.jpg" />
-			</div>
-			<div class="detail_header_content">
-				<ul>
-					<li>
-						<p>当前排名</p>
-						<span>57</span>
-					</li>
-					<li>
-						<p>七天累计人气值</p>
-						<span>18759</span>
-					</li>
-					<li>
-						<p>日访问量</p>
-						<span>25768</span>
-					</li>
-				</ul>
-			</div>
-			<div class="detail_store ">
-				<div class="d_shop content">
-					<img src="images/1_06.jpg" />
-					<div class="d_shop_r">
-						<h3>美克美家家具</h3>
-						<div class="score">
-							<i class="icon iconfont icon-xingji"></i>
-							<i class="icon iconfont icon-xingji"></i>
-							<i class="icon iconfont icon-xingji"></i>
-							<i class="icon iconfont icon-xingji"></i>
-							<i class="icon iconfont icon-xingji"></i>
-						</div>
-						<span class="add">江苏省 常州市</span>
-					</div>
+		<div id="wrapper">
+
+			<div class="detail_header">
+				<div class="detail_header_img">
+					<img src="images/1_02.jpg" />
 				</div>
-				<div class="d_shop_detail ">
+				<div class="detail_header_content">
 					<ul>
-						<li class="d_shop_detail_list content">
-							<i class="icon iconfont icon-left-angle f_r"></i>
-							<i class="icon iconfont icon-dizhi"></i>
-							<span>通江中路时代广场4栋2楼</span>
+						<li>
+							<p>当前排名</p>
+							<span>57</span>
 						</li>
-						<li class="d_shop_detail_list content " id="tel">
-							<i class="icon iconfont icon-left-angle f_r"></i>
-							<i class="icon iconfont icon-dianhua"></i>
-							<span>0519-89855898</span>
+						<li>
+							<p>七天累计人气值</p>
+							<span>18759</span>
 						</li>
-						<li class="d_shop_detail_list content" id="wx_img">
-							<i class="icon iconfont icon-left-angle f_r"></i>
-							<i class="icon iconfont icon-erweima-pc-off"></i>
-							<span>微信二维码</span>
+						<li>
+							<p>日访问量</p>
+							<span>25768</span>
 						</li>
 					</ul>
 				</div>
-
-				<div class="d_about">
-					<div class="about_header content">
-						<p class="f_r">2002年创立<i class="icon iconfont icon-left-angle"></i></p>
-						<h3>品牌介绍</h3>
+				<div class="detail_store ">
+					<div class="d_shop content">
+						<img src="images/1_06.jpg" />
+						<div class="d_shop_r">
+							<h3>美克美家家具</h3>
+							<div class="score">
+								<i class="icon iconfont icon-xingji"></i>
+								<i class="icon iconfont icon-xingji"></i>
+								<i class="icon iconfont icon-xingji"></i>
+								<i class="icon iconfont icon-xingji"></i>
+								<i class="icon iconfont icon-xingji"></i>
+							</div>
+							<span class="add">江苏省 常州市</span>
+						</div>
 					</div>
-					<div class="about_v">
-						<img src="images/1_10.jpg" />
-					</div>
-					<div class="about_p content">
-						<p>斯玛特儿童美术中心（图片7）斯玛特儿童艺术（中国）始创于2002年，为2-12岁儿童提供专业艺术教育。目前在全中国拥有300多家分中心。以“陪伴、启发、引导、帮助”的教育方式，培养中国儿童内在素养</p>
-					</div>
-				</div>
-
-				<div class="d_activity">
-					<div class="d_activity_header ">
-						<h3 class="content">商家活动</h3>
-					</div>
-					<div class="d_activity_img">
-						<img src="images/1_13.jpg" />
-					</div>
-					<div class="about_p content">
-
-						<p>斯玛特儿童美术中心（图片7）斯玛特儿童艺术（中国）始创于2002年，为2-12岁儿童提供专业艺术教育。目前在全中国拥有300多家分中心。以“陪伴、启发、引导、帮助”的教育方式，培养中国儿童内在素养</p>
-					</div>
-				</div>
-
-				<div class="evaluation content">
-					<h4>用户评价（70）</h4>
-
-					<div class="evaluation_content">
+					<div class="d_shop_detail ">
 						<ul>
-							<li class="evaluation_c">
-								口味好，质量好，吃的放心，健康未来！大品牌就是不一样！
+							<li class="d_shop_detail_list content">
+								<i class="icon iconfont icon-left-angle f_r"></i>
+								<i class="icon iconfont icon-dizhi"></i>
+								<span>通江中路时代广场4栋2楼</span>
 							</li>
-							<li class="evaluation_img">
-								<img src="images/1_17.jpg" />
-								<img src="images/1_17.jpg" />
-								<img src="images/1_17.jpg" />
+							<li class="d_shop_detail_list content " id="tel">
+								<i class="icon iconfont icon-left-angle f_r"></i>
+								<i class="icon iconfont icon-dianhua"></i>
+								<span>0519-89855898</span>
 							</li>
-							<li class="evaluation_b">
-								<div class="evaluation_time">
-									2017-10-02
-								</div>
-								<div class="evaluation_x">
-									<i class="icon iconfont icon-xingzhuang60kaobei2"></i>
-									<i class="icon iconfont icon-xingzhuang60kaobei2"></i>
-									<i class="icon iconfont icon-xingzhuang60kaobei2"></i>
-									<i class="icon iconfont icon-xingzhuang60kaobei2"></i>
-									<i class="icon iconfont icon-xingzhuang60kaobei2"></i>
-								</div>
+							<li class="d_shop_detail_list content" id="wx_img">
+								<i class="icon iconfont icon-left-angle f_r"></i>
+								<i class="icon iconfont icon-erweima-pc-off"></i>
+								<span>微信二维码</span>
 							</li>
 						</ul>
 					</div>
 
-					<div class="evaluation_content">
-						<ul>
-							<li class="evaluation_c">
-								口味好，质量好，吃的放心，健康未来！大品牌就是不一样！
-							</li>
-							<li class="evaluation_img">
-								<img src="images/1_17.jpg" />
-								<img src="images/1_17.jpg" />
-								<img src="images/1_17.jpg" />
-							</li>
-							<li class="evaluation_b">
-								<div class="evaluation_time">
-									2017-10-02
-								</div>
-								<div class="evaluation_x">
-									<i class="icon iconfont icon-xingzhuang60kaobei2"></i>
-									<i class="icon iconfont icon-xingzhuang60kaobei2"></i>
-									<i class="icon iconfont icon-xingzhuang60kaobei2"></i>
-									<i class="icon iconfont icon-xingzhuang60kaobei2"></i>
-									<i class="icon iconfont icon-xingzhuang60kaobei2"></i>
-								</div>
-							</li>
-						</ul>
+					<div class="d_about">
+						<div class="about_header content">
+							<p class="f_r">2002年创立<i class="icon iconfont icon-left-angle"></i></p>
+							<h3>品牌介绍</h3>
+						</div>
+						<div class="about_v">
+							<img src="images/1_10.jpg" />
+						</div>
+						<div class="about_p content">
+							<p>斯玛特儿童美术中心（图片7）斯玛特儿童艺术（中国）始创于2002年，为2-12岁儿童提供专业艺术教育。目前在全中国拥有300多家分中心。以“陪伴、启发、引导、帮助”的教育方式，培养中国儿童内在素养</p>
+						</div>
 					</div>
-					<div class="evaluation_eye">
-						<p>
-							查看全部评论
-						</p>
-					</div>
-				</div>
 
-				<div class="statement ">
-					<h3 class="content">免责声明</h3>
-					<div class="statement_d content">
-						<p>
-							"股票百科"是一个内容开放的股票科普性文章线上信息库，其内容并不一定经相关领域的专家和专业人员审查，因此股票百科不能保证其内容的有效、完善、正确或可靠性。
-						</p>
-					</div>
-				</div>
+					<div class="d_activity">
+						<div class="d_activity_header ">
+							<h3 class="content">商家活动</h3>
+						</div>
+						<div class="d_activity_img">
+							<img src="images/1_13.jpg" />
+						</div>
+						<div class="about_p content">
 
-				<div class="contract">
-					<h3 class="content">联系富途</h3>
-					<div class="contract_img content">
-						<img src="images/1_27.jpg" />
+							<p>斯玛特儿童美术中心（图片7）斯玛特儿童艺术（中国）始创于2002年，为2-12岁儿童提供专业艺术教育。目前在全中国拥有300多家分中心。以“陪伴、启发、引导、帮助”的教育方式，培养中国儿童内在素养</p>
+						</div>
 					</div>
+					<div class="d_inputtel">
+						<div class="inputtel-con">
+							<span><input type="tel" placeholder="请输入您的手机号" /></span>
+							<button>立即领取</button>
+						</div>
+					</div>
+					<div class="evaluation content">
+						<h4>用户评价（70）</h4>
+
+						<div class="evaluation_content">
+							<ul>
+								<li class="evaluation_c">
+									口味好，质量好，吃的放心，健康未来！大品牌就是不一样！
+								</li>
+								<li class="evaluation_img">
+									<img src="images/1_17.jpg" />
+									<img src="images/1_17.jpg" />
+									<img src="images/1_17.jpg" />
+								</li>
+								<li class="evaluation_b">
+									<div class="evaluation_time">
+										2017-10-02
+									</div>
+									<div class="evaluation_x">
+										<i class="icon iconfont icon-xingzhuang60kaobei2"></i>
+										<i class="icon iconfont icon-xingzhuang60kaobei2"></i>
+										<i class="icon iconfont icon-xingzhuang60kaobei2"></i>
+									</div>
+								</li>
+							</ul>
+						</div>
+
+						<div class="evaluation_content">
+							<ul>
+								<li class="evaluation_c">
+									口味好，质量好，吃的放心，健康未来！大品牌就是不一样！
+								</li>
+								<li class="evaluation_img">
+									<img src="images/1_17.jpg" />
+									<img src="images/1_17.jpg" />
+									<img src="images/1_17.jpg" />
+								</li>
+								<li class="evaluation_b">
+									<div class="evaluation_time">
+										2017-10-02
+									</div>
+									<div class="evaluation_x">
+										<i class="icon iconfont icon-xingzhuang60kaobei2"></i>
+										<i class="icon iconfont icon-xingzhuang60kaobei2"></i>
+										<i class="icon iconfont icon-xingzhuang60kaobei2"></i>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="evaluation_content">
+							<ul>
+								<li class="evaluation_c">
+									口味好，质量好，吃的放心，健康未来！大品牌就是不一样！
+								</li>
+								<li class="evaluation_img">
+									<img src="images/1_17.jpg" />
+									<img src="images/1_17.jpg" />
+									<img src="images/1_17.jpg" />
+								</li>
+								<li class="evaluation_b">
+									<div class="evaluation_time">
+										2017-10-02
+									</div>
+									<div class="evaluation_x">
+										<i class="icon iconfont icon-xingzhuang60kaobei2"></i>
+										<i class="icon iconfont icon-xingzhuang60kaobei2"></i>
+										<i class="icon iconfont icon-xingzhuang60kaobei2"></i>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="evaluation_eye">
+							<a href="tmpl/common.html">查看全部评论</a>
+						</div>
+					</div>
+
+					<div class="statement ">
+						<h3 class="content">免责声明</h3>
+						<div class="statement_d content">
+							<p>
+								"股票百科"是一个内容开放的股票科普性文章线上信息库，其内容并不一定经相关领域的专家和专业人员审查，因此股票百科不能保证其内容的有效、完善、正确或可靠性。
+							</p>
+						</div>
+					</div>
+
+					<div class="contract">
+						<h3 class="content">联系富途</h3>
+						<div class="contract_img content">
+							<img src="images/1_27.jpg" />
+						</div>
+					</div>
+					<footer>
+						Copyright © 2017 futu Inc.AllRights Reserved.
+					</footer>
 				</div>
-                <footer>
-                	Copyright © 2017 futu Inc.AllRights Reserved.
-                </footer>
 			</div>
-		</div>
 
+		</div>
 		<div class="mask"></div>
 		<div class="tel_box">
 			<ul>
@@ -196,7 +228,7 @@
 		<div class="wx_box">
 			<!--<img src="images/images/wx.jpg"/>-->
 			<div class="wx_title">
-				<img src="images/shop_logo.jpg" class="wx_shop_logo"/>
+				<img src="images/shop_logo.jpg" class="wx_shop_logo" />
 				<div class="wx_t">
 					<h3>常州品牌计划</h3>
 					<p>江苏 常州</p>
@@ -207,6 +239,26 @@
 			</div>
 			<p class="wx_m">扫一扫上面的二维码，加我微信</p>
 		</div>
+
+		<script type="text/javascript">
+			var myscroll = new iScroll("wrapper", {
+				onScrollMove: function() {
+					var height = this.y,
+						bottomHeight = this.maxScrollY - height;
+
+					// 控制下拉显示
+					if(height >= 60) {
+						//document.querySelector("#PullDown").style.display = "block";
+						isPulled = true;
+						return;
+					} else if(height < 60 && height >= 0) {
+						//document.querySelector("#PullDown").style.display = "none";
+						return;
+					}
+				},
+
+			});
+		</script>
 	</body>
 
 </html>

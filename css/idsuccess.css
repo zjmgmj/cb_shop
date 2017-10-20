@@ -14,7 +14,11 @@
 .identity .title a {
   display: block;
   width: 10%;
-  float: left;
+  position: absolute;
+  left: 3%;
+  top: 0;
+  z-index: 3;
+  color: #FFFFFF;
 }
 .identity .title a i {
   font-size: 1rem;

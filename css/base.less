@@ -51,7 +51,7 @@ body {
     font-size: 15px;
     font-family: San Francisco, Helvetica, Arial, sans-serif;
 }
-input,
+input,option,select,
 textarea {
     border: none;
     outline: none;
@@ -139,3 +139,35 @@ button {
 	z-index: 100;
 	display: none;
 }
+.title {
+        width: 92%;
+        padding: 0 4%;
+        height: 2rem;
+        line-height: 2rem;
+        
+        border-bottom: 1px solid #adadad;
+        position: relative;
+        a {
+            display: block;
+            width: 10%;
+            position: absolute;
+            left: 3%;
+            top: 0;
+            z-index: 3;
+            color: #5d5d5d;
+            i {
+                font-size: 1rem;
+            }
+        }
+        p {
+            position: absolute;
+            left: 0;
+            top: 0;
+            text-align: center;
+            width: 100%;
+            line-height: 2rem;
+            height: 2rem;
+            font-size: 0.8rem;
+            z-index: 2;
+        }
+    }

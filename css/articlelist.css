@@ -4,8 +4,8 @@
   padding-bottom: 2.2rem;
 }
 .articlelist .infolist {
-  width: 90%;
-  margin: 0.2rem auto;
+  width: 100%;
+  margin: 0 auto;
   height: 100%;
 }
 .articlelist .infolist li {
@@ -16,6 +16,9 @@
   -webkit-border-radius: 0.2rem;
   border-radius: 0.2rem;
   padding: 0.5rem 0;
+}
+.articlelist .infolist li:last-child {
+  margin-bottom: 0;
 }
 .articlelist .infolist li a {
   display: block;
@@ -62,4 +65,3 @@
   height: 4rem;
   max-width: 94%;
 }
-/*# sourceMappingURL=articlelist.css.map */
